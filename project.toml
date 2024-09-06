@@ -1,6 +1,9 @@
 [ _ ]
 schema-version = "0.2"
 
+[io.buildpacks]
+builder = "fir-go-getting-started/heroku/builder:24"
+
 [[io.buildpacks.group]]
 id = "heroku/go"
 version = "0.4.4"
