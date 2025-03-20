@@ -8,3 +8,6 @@ version = "0.4.4"
 [[io.buildpacks.group]]
 id = "heroku/procfile"
 version = "3.1.2"
+
+[com.heroku.build.labs]
+build_config_vars = true
